@@ -20,8 +20,8 @@ export function Infrastructure() {
         </Reveal>
 
         <Reveal delay={80}>
-          <div className="mt-8 overflow-hidden rounded-xl border border-ink-800 bg-ink-900/50 transition-all duration-300 hover:border-teal-500/30">
-            <div className="border-b border-ink-800 px-6 py-3 font-mono text-[11px] uppercase tracking-[0.16em] text-faint">
+          <div className="group mt-8 overflow-hidden rounded-xl border border-ink-800 bg-ink-900/50 transition-all duration-300 hover:border-teal-500/30">
+            <div className="border-b border-ink-800 px-6 py-3 font-mono text-[11px] uppercase tracking-[0.16em] text-teal-400/80">
               deployment spec
             </div>
             <dl className="px-6">
@@ -30,7 +30,7 @@ export function Infrastructure() {
                   key={row.key}
                   className="grid grid-cols-[6.5rem_1fr] gap-4 border-b border-ink-800/60 py-3.5 font-mono text-sm last:border-0"
                 >
-                  <dt className="text-teal-400/80">{row.label.toLowerCase()}</dt>
+                  <dt className="text-teal-400/80 transition-colors group-hover:text-teal-400">{row.label.toLowerCase()}</dt>
                   <dd className="text-mist">{row.value}</dd>
                 </div>
               ))}

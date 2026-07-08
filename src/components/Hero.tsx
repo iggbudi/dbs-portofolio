@@ -97,7 +97,7 @@ export function Hero() {
 
         <div className="lg:col-span-5">
           <div
-            className="animate-fade-up mb-5 overflow-hidden rounded-2xl border border-ink-800 shadow-2xl shadow-black/40"
+            className="animate-fade-up mb-5 overflow-hidden rounded-2xl border border-ink-800 shadow-ink"
             style={{ animationDelay: "140ms" }}
           >
             <Image
@@ -111,7 +111,7 @@ export function Hero() {
           </div>
 
           <div
-            className="animate-fade-up rounded-2xl border border-ink-800 bg-ink-900/70 p-6 shadow-2xl shadow-black/40 sm:p-7"
+            className="animate-fade-up rounded-2xl border border-ink-800 bg-ink-900/70 p-6 shadow-ink sm:p-7"
             style={{ animationDelay: "200ms" }}
           >
             <div className="flex items-center justify-between border-b border-ink-800 pb-4">

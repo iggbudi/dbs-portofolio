@@ -9,7 +9,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
     <div className="group flex flex-col rounded-xl border border-ink-800 bg-ink-900/60 p-5 transition-all duration-300 hover:-translate-y-1 hover:border-emerald-500/40 hover:bg-ink-850">
       <div className="flex items-center justify-between">
-        <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-emerald-400/70">
+        <span className="font-mono text-[10px] uppercase tracking-[0.14em] text-emerald-400/80">
           {category?.label}
         </span>
         <span className="font-mono text-[10px] text-ink-600">

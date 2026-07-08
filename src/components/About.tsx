@@ -32,7 +32,7 @@ export function About() {
                   key={skill.lead}
                   className="flex gap-3 border-b border-ink-800/60 py-3.5 last:border-0"
                 >
-                  <span className="mt-1 font-mono text-xs text-blue-400/70">
+                  <span className="mt-1 font-mono text-xs text-blue-400/80">
                     →
                   </span>
                   <p className="text-sm leading-relaxed">

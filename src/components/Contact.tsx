@@ -32,7 +32,7 @@ export function Contact() {
               href={profile.github}
               target="_blank"
               rel="noreferrer"
-              className="rounded-full border border-ink-700 px-7 py-3.5 text-sm font-medium text-paper transition-colors hover:border-rose-500/40 hover:bg-ink-850"
+              className="rounded-full border border-ink-700 px-7 py-3.5 text-sm font-medium text-paper transition-colors hover:border-rose-500/40 hover:bg-ink-850 hover:text-rose-400"
             >
               GitHub ↗
             </a>
@@ -40,7 +40,7 @@ export function Contact() {
               href={profile.x}
               target="_blank"
               rel="noreferrer"
-              className="rounded-full border border-ink-700 px-7 py-3.5 text-sm font-medium text-paper transition-colors hover:border-rose-500/40 hover:bg-ink-850"
+              className="rounded-full border border-ink-700 px-7 py-3.5 text-sm font-medium text-paper transition-colors hover:border-rose-500/40 hover:bg-ink-850 hover:text-rose-400"
             >
               X ↗
             </a>
